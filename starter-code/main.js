@@ -5,14 +5,14 @@ var cardFour = "queen";
 
 var pick = document.getElementById('game-board');
 function createBoard () {
-	for (var i = 0; i < 4; i++) {
+	for (var i = 0; i <= 4; i++) {
 		var newCard = document.createElement('div');
 		newCard[i] = newCard;
 		newCard.className = "card";
 		pick.appendChild(newCard);
 	}
 }
-console.log(myFunction());
+console.log(createBoard());
 /*if (cardTwo === cardFour) {
 	alert("Sorry, try again.")
 } else if (cardTwo === cardThree) {
